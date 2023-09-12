@@ -1,0 +1,20 @@
+<app-header></app-header>
+ <div id="opp" class="bg-indigo-500">
+    <div id="put" style="display: flex;">
+    <ul *ngFor="let item of countryList" style="display: flex; list-style: none;">
+      
+  
+       <li style="list-style: none;">
+  
+            <img [src]="item.movie" alt="" style="height: 240px; width: 190px; border-radius: 0.8rem; display: flex;">
+  
+            <h3>{{item.name}} {{item.code}}</h3></li>
+            <div class="watch" (click)="watchnow()">watch now</div>
+
+    </ul>
+    </div>
+  
+  </div> 
+  
+
+  
