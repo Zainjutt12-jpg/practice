@@ -1,8 +1,148 @@
-#oop{
-    overflow: hidden;
-    background-color: aquamarine;
-    #put{
-        overflow: hidden;
-        display: flex;
-    }
+.fit{
+    height: 70vh;
+    background-color: rgba(65,54,54);
+    display: flex;
 }
+
+.par p{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: cursive;
+    color: antiquewhite;
+    margin-top: 80px;
+}
+
+.par h2{
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.main{
+    height: 30vh;
+}
+
+.mainn{
+    height: 60vh;
+
+}
+
+.idoo{
+    transition: all ease 0.3s;
+}
+
+.ido button{
+    transition: all ease 0.3s;
+    background-color: black;
+
+}
+.ido button:hover{
+    background-color: transparent;
+}
+.phul{
+    height: 140vh;
+}
+
+.form button{
+    background-color: rgb(223, 179, 179);
+    text-decoration: none;
+    list-style: none;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: large;
+    height: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    transition: all ease .3s;
+    margin-left: 100px;
+ }
+
+ .form button:hover{
+    background-color: rgb(245, 231, 231);
+    color: black;
+ }
+
+ .imo{
+    object-fit: cover;
+    height: 60vh;
+    
+ }
+
+ .imo video{
+    width: 600px;
+    height: 50vh;
+    margin-left: 30%;
+ }
+
+ #card-container{
+    /*background-color: red;*/
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    z-index: 10;
+}
+
+
+ .card{
+    height: 99%;
+    width: 27%;
+    /*background-color: blue;*/
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    transition: all ease 0.6s;
+    display: flex;
+    gap: 450px;
+    margin-left: -120px;
+    overflow: hidden;
+
+}
+
+#card-1{
+    background-image: url(https://www.publikcoffee.com/media/com_ingallery/cache/picture_3153942252857610218.jpg);
+    margin-left: 850px;
+}
+#card-2{
+    background-image: url(https://www.publikcoffee.com/media/com_ingallery/cache/picture_3169340130372199983.jpg);
+    margin-left: -50px;
+    margin-top: -770px;
+}
+#card-3{
+    background-image: url(https://www.publikcoffee.com/media/com_ingallery/cache/picture_3106259197281889752.jpg);
+    margin-left: -950px;
+    margin-top: -1550px;
+}
+
+
+.overplay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(65,54,54);
+    padding-top: 160px;
+    padding: 50px;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+
+.overplay h3{
+    color: #000;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.overplay p{
+    color: #000;
+}
+
+.card:hover .overplay{
+    opacity: 1;
+}
+
+.card:hover{
+    transform: rotate3d(1,1,0,20deg);
+}
+

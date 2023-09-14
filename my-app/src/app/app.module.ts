@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { VideoComponent } from './video/video.component';
+import { Part1Component } from './home/part1/part1.component';
+import { Part2Component } from './home/part2/part2.component';
+import { Part3Component } from './home/part3/part3.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { VideoComponent } from './video/video.component';
     HeaderComponent,
     MovieComponent,
     VideoComponent,
+    Part1Component,
+    Part2Component,
+    Part3Component
   ],
   imports: [
     BrowserModule,

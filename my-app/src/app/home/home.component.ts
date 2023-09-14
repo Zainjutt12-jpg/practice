@@ -1,7 +1,6 @@
-import { Router } from '@angular/router';
+import { Router, Routes, ParamMap, ActivatedRoute,RouterOutlet,RouterStateSnapshot } from '@angular/router';
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import countries from './countries.json';
 import { AuthService } from '../auth.service';
 
 
@@ -12,7 +11,6 @@ import { AuthService } from '../auth.service';
 })
 export class HomeComponent implements OnInit{
 
-  public countryList:{name:string, code:string, movie:string}[] = countries;
   
 
   constructor(private router:Router, private auth:AuthService){ }
@@ -25,6 +23,12 @@ export class HomeComponent implements OnInit{
     this.router.navigate(['video']);
   }
 
-
+  part1() {
+    this.router.navigate(['part1']);
+  }
+  part3() {
+    this.router.navigate(['part3']);
+  }
   
 }
+
